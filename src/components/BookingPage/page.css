@@ -1,0 +1,59 @@
+.container {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 16px;
+  }
+  
+  .main-heading {
+    font-size: 1.5em;
+    margin-top: 16px;
+  }
+  
+  .main-image {
+    border-radius: 8px;
+    max-width: 100%;
+  }
+  
+  .puja-list {
+    padding: 0px;
+    padding-bottom: 30px;
+  }
+  
+  .section-heading {
+    font-size: 1.25em;
+    margin-bottom: 16px;
+  }
+  
+  
+  .bookingpagemenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button {
+    background-color: #38a169;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #2f855a;
+  }
+  
+  /* Media Queries */
+  @media (min-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  

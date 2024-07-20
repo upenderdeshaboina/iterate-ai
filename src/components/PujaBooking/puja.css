@@ -1,0 +1,139 @@
+.container {
+    min-height: 100vh;
+    background-color: white;
+  }
+  
+  .main-content {
+    padding: 16px;
+  }
+  
+  .breadcrumb {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fef5ec;
+    padding: 16px;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .main-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-container {
+    padding: 16px;
+  }
+  
+  .text-container h1 {
+    font-size: 24px;
+    color: #d97706;
+    font-weight: bold;
+  }
+  
+  .text-container h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  
+  .info .icon {
+    font-size: 16px;
+    color: gray;
+    margin-right: 8px;
+  }
+  
+  .countdown {
+    margin-top: 16px;
+  }
+  
+  .countdown h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .countdown-timers {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  
+  .timer {
+    background-color: #f7f7f7;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .timer .number {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .timer .label {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .participants {
+    margin-top: 16px;
+  }
+  
+  .participants .highlight {
+    font-size: 18px;
+    font-weight: bold;
+    color: #dc2626;
+  }
+  
+  .button {
+    margin-top: 16px;
+    background-color: #38a169;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #2f855a;
+  }
+  
+  /* Media Queries */
+  @media (min-width: 768px) {
+    .content {
+      flex-direction: row;
+    }
+  }
+  
